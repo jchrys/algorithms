@@ -29,4 +29,12 @@ Describe an implementation of the procedure $\text{RANDOM}(a, b)$ that only make
 
 
 
+$$
+\begin{aligned}
+\langle 27, 17, 3,  16, 13, 10,1, 5, 7, 12, 4, 8, 9, 0 \rangle \\\\
+\langle 27, 17, 10, 16, 13, 3, 1, 5, 7, 12, 4, 8, 9, 0 \rangle \\\\
+\langle 27, 17, 10, 16, 13, 9, 1, 5, 7, 12, 4, 8, 3, 0 \rangle \\\\
+\end{aligned}
+$$
+
 
