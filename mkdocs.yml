@@ -1,0 +1,42 @@
+# main configuration
+site_name: Algorithms
+site_description: Implementing Algorithms & DataStructures
+site_author: INMAK
+#site_url: canonical url
+
+# copyright & google analytics
+copyright: 'INMAK &copy; 2019'
+# google_analytics: ['codes', 'domain']
+
+# Katex
+extra_css:
+#  - 'css/katex.css'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css'
+
+extra_javascript:
+#  - 'js/katex.js'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js'
+
+
+# Repository configuration
+repo_name: Algorithms
+repo_url: https://github.com/jchrys/
+
+
+theme: material
+
+nav:
+    - Home: index.md
+    - About: about.md
+    - Algorithms:
+        - Basics:
+            - Preface: Preface.md
+            - Time Complexity: algorithms/basics/TimeComplexity.md
+            - DivideAndConquer: DivideAndConquer.md
+        - Sorting:
+            - Insertion Sort: algorithms/sorting/InsertionSort.md
+            - BubbleSort: algorithms/sorting/BubbleSort.md
+    - DataStructures:
+        - Heaps:
+            - FibonacciHeap: about.md
