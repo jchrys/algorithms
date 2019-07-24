@@ -26,17 +26,22 @@ repo_url: https://github.com/jchrys/
 
 theme: material
 
+markdown_extensions:
+    - codehilite:
+        linenums: true
+
 nav:
     - Home: index.md
     - About: about.md
     - Algorithms:
         - Basics:
             - Preface: Preface.md
-            - Time Complexity: algorithms/basics/TimeComplexity.md
+            - Time Complexity: Algorithms/basics/TimeComplexity.md
             - DivideAndConquer: DivideAndConquer.md
         - Sorting:
-            - Insertion Sort: algorithms/sorting/InsertionSort.md
-            - BubbleSort: algorithms/sorting/BubbleSort.md
+            - Insertion Sort: Algorithms/sorting/InsertionSort.md
+            - BubbleSort: Algorithms/sorting/BubbleSort.md
     - DataStructures:
-        - Heaps:
-            - FibonacciHeap: about.md
+        - Hash Tables:
+            - Preface: index.md
+            - Hash Functions: DataStructures/HashTables/HashFunctions.md
